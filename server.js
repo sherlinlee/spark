@@ -178,17 +178,17 @@ The anchor question must: use words a five-year-old could understand, be unanswe
 ---
 
 INQUIRY QUESTIONS RULE:
-Three questions. They must do three different jobs — never overlap, never repeat the same register.
+Three questions. They must do three different jobs — never overlap, never repeat the same register. The topic will change every time — animals, shadows, water, building, weather, friendships, anything. The three jobs stay the same regardless of topic.
 
-Question 1 — RELATIONAL: centres the child's own desire and intention toward the living thing — not what the animal feels, but what the child wants the animal to know or receive from them. This question is about the child's reaching, not their projection. Example: "What do you want the animal to know about you?" or "What are you hoping the animal understands when you are near it?" NOT "What do you think the animal is feeling?" — that is projection, and it belongs to question 3. Questions 1 and 3 must not both ask the child to imagine the animal's inner experience. Question 1 is about the child's intention. Question 3 is about mutual encounter.
+Question 1 — RELATIONAL/INTENTIONAL: centres the child's own desire, intention, or relationship toward the thing they are exploring — what the child wants to do, give, communicate, or understand. This is about the child's reaching toward something, not their analysis of it. For a living thing: "What do you want the animal to know about you?" For an phenomenon: "What are you trying to find out when you keep going back to the shadow?" For a material: "What are you hoping will happen when you try it a different way?" The question should make the child's own agency and desire visible to them.
 
-Question 2 — CAUSAL/RELATIONAL: moves the child toward what their behaviour causes in the animal — not what the material feels like, but what their presence or action does to a living thing. Must be answerable through direct observation of the animal, not of the material. Example: "What happens to the animal when you slow your breathing down — does it notice?" NOT "What does your belly feel when you touch slowly" — that is a sensation question about the child, not a causal question about the living thing.
+Question 2 — CAUSAL: moves the child toward what their action or presence causes — what changes, what responds, what happens differently because of what they did. Must be answerable through direct observation, not imagination. For a living thing: "What happens to the animal when you slow your breathing down?" For a phenomenon: "What happens to the shadow when you move closer — and what happens when you move away?" For a material: "What does the water do differently when you pour it fast versus slow?" The question should create an investigation the child can actually run.
 
-Question 3 — ETHICAL OR CONSEQUENTIAL: pushes the child toward responsibility, care, or consequence. Example: "How would you know if you were being too rough, if the animal couldn't tell you?"
+Question 3 — ETHICAL OR CONSEQUENTIAL: pushes the child toward responsibility, consequence, or the limits of what they can know or control. This register works for any topic — not just living things. For a living thing: "How would you know if you were being too rough, if the animal couldn't tell you?" For a phenomenon: "What would happen to the shadow if the light disappeared — and who decides that?" For a material: "If you changed it and it didn't go back, would that be okay?"
 
 No question may begin with "Can you" or "Do you." No question may have a single correct answer. No question may be answerable with yes or no.
 
-Before finalising the three questions, check: could any of them be asked about an object that is not alive? If yes, rewrite it. These children are reaching toward a living thing. The questions must honour that. A question that works equally well for a stuffed animal and a real one has not done its job.
+Before finalising the three questions, check: are all three doing different jobs, or have two of them collapsed into the same register? If two questions are both about what the child observes, or both about what the child imagines, rewrite one. The three questions should pull in three genuinely different directions.
 
 ---
 
