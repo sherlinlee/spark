@@ -136,7 +136,8 @@ function renderEnvSetup(setup) {
 
 function renderResults(data, topic, ageGroup) {
   const ageShort = ageGroup.match(/^(Toddlers|Nursery|K1|K2)/)?.[1] ?? ageGroup;
-  resultsMeta.textContent = `${topic} · ${ageShort}`;
+const topicDisplay = topic.charAt(0).toUpperCase() + topic.slice(1);
+resultsMeta.textContent = `${topicDisplay} · ${ageShort}`;
 
   fillList(envList, data.environmentProvocations || []);
   fillList(inquiryList, data.inquiryQuestions || []);
