@@ -91,6 +91,28 @@ body {
   letter-spacing: 0.01em;
 }
 
+/* ── Header link ── */
+.header-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.45rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hero-bg);
+  background: var(--hero-accent);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.header-link:hover {
+  background: #7aebbe;
+  opacity: 0.95;
+}
+
 /* ── App wrapper ── */
 .app {
   max-width: 860px;
