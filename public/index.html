@@ -32,16 +32,28 @@
       <section class="form-section" aria-labelledby="form-heading">
         <h2 id="form-heading" class="visually-hidden">Generate provocations</h2>
         <form id="spark-form" novalidate>
+
           <div class="field">
-            <label for="topic">Topic</label>
+            <label for="topic">What are your children curious about right now?</label>
             <input
               type="text"
               id="topic"
               name="topic"
-              placeholder="e.g. mammals, space, feelings"
+              placeholder="e.g. mammals, space, feelings, shadows"
               required
               autocomplete="off"
             />
+          </div>
+
+          <div class="field">
+            <label for="observation">Something you noticed <span class="optional-tag">(optional — but this is where the magic happens)</span></label>
+            <textarea
+              id="observation"
+              name="observation"
+              placeholder="e.g. Leo kept asking why the ant didn't drop the leaf. Sarah watched from across the room for a long time before she came closer."
+              rows="3"
+              autocomplete="off"
+            ></textarea>
           </div>
 
           <fieldset class="field age-field">
@@ -128,6 +140,27 @@
             </h3>
             <blockquote id="anchor-question" class="anchor-quote"></blockquote>
           </article>
+
+          <article class="card card-setup card-full">
+            <h3>
+              <span class="card-icon" aria-hidden="true">🏡</span>
+              Environment Setup Guide
+            </h3>
+            <div id="env-setup" class="env-setup-grid"></div>
+          </article>
+
+          <article class="card card-wherenext card-full">
+            <h3>
+              <span class="card-icon" aria-hidden="true">🔭</span>
+              Where Next?
+            </h3>
+            <p id="where-next" class="where-next-text"></p>
+          </article>
+        </div>
+
+        <div class="before-setup-banner" id="before-setup" hidden>
+          <span class="before-setup-icon" aria-hidden="true">🌱</span>
+          <p id="before-setup-text"></p>
         </div>
 
         <button type="button" id="new-btn" class="btn-secondary">Generate another topic</button>
@@ -136,8 +169,8 @@
 
     <footer class="footer">
       <p class="install-tip">On your phone: open in Safari or Chrome, then use <strong>Share → Add to Home Screen</strong> for quick access.</p>
- <p><strong>Built by an educator, for early childhood educators</strong></p>
-<p>Powered by Claude</p>
+      <p><strong>Built by an educator, for early childhood educators</strong></p>
+      <p>Powered by Claude</p>
     </footer>
   </div>
 
