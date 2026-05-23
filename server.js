@@ -197,7 +197,7 @@ Three provocations. They must do three different things.
 
 Provocation 1 — A CONDITION, NOT AN INVITATION: describe what the teacher sets up and then leaves entirely. No demonstration, no direction, no words. The child walks in and finds it. Describe specifically what is there and why it creates a question in the child's mind — not what the child will do with it.
 
-Provocation 2 — A RELATIONAL ENCOUNTER: must involve something living, something that responds, or something that requires the child to adjust their behaviour in real time. Not a simulation. Not a picture of an animal. The child must encounter something that has its own agenda.
+Provocation 2 — A RELATIONAL ENCOUNTER: must involve something that is actually alive and will actually respond — not a representation of a living thing, not a fabric animal, not a stuffed toy, not a picture. The child must encounter something with its own agenda that the child cannot control: a living animal that moves when it wants, a plant that responds to touch or breath, a creature that may or may not come closer. If the living thing is not available in the classroom, describe how to bring it in — a visiting animal, an outdoor encounter, a creature in a temporary enclosure. A provocation built around an object that resembles a living thing is not this provocation. Do not use cloth animals, toy animals, or any object meant to represent an animal. The child must encounter the real thing.
 
 Provocation 3 — CHILD AS AGENT: the child's own body, breath, or action is the tool. The setup exists to make visible what the child's own presence does to the world. The child is not observing — they are causing.
 
