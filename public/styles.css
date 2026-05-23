@@ -130,7 +130,7 @@ input[type="text"] {
   width: 100%;
   padding: 0.85rem 1rem;
   font-family: inherit;
-  font-size: 16px; /* prevents iOS zoom on focus */
+  font-size: 16px;
   border: 2px solid var(--border);
   border-radius: var(--radius-sm);
   background: var(--bg);
@@ -145,6 +145,32 @@ input[type="text"]:focus {
 }
 
 input[type="text"]::placeholder {
+  color: #a39e98;
+}
+
+/* Observation textarea */
+textarea#observation {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-family: inherit;
+  font-size: 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+textarea#observation:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+textarea#observation::placeholder {
   color: #a39e98;
 }
 
