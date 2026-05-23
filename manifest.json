@@ -1,0 +1,17 @@
+{
+  "name": "Spark — Lesson Provocations",
+  "short_name": "Spark",
+  "description": "Reggio-inspired lesson provocations for early childhood educators",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#e85d4c",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

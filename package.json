@@ -1,0 +1,9 @@
+{
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "Lesson provocation generator for early childhood educators",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
