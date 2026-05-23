@@ -247,7 +247,9 @@ Provocation 1 — A CONDITION, NOT AN INVITATION: the teacher sets it up and lea
 
 Provocation 2 — A RELATIONAL ENCOUNTER: the child encounters something with its own behaviour or agenda they cannot control or predict. For living-thing topics: a real living creature, not a representation. No cloth animals, toy animals, stuffed toys, or pictures. If not available in the classroom, describe how to bring it in. For non-living topics: something that behaves on its own — water finding its own level, a shadow moving as the sun moves, wind arriving without warning. The child encounters something they cannot fully control.
 
-Provocation 3 — CHILD AS AGENT: the child's own body, breath, weight, warmth, or voice is the tool. The setup makes visible what the child's own presence does to the world. No cloth animals, dolls, or stuffed toys as props. Use real materials the child's body can act on.
+Provocation 3 — CHILD AS AGENT: the child's own body, breath, weight, warmth, or voice is the tool. The setup exists to make visible what the child's own presence does to the world. No cloth animals, dolls, or stuffed toys as props. Use real materials the child's body can act on — their own skin, real fabric, a mirror, water, sand, light.
+
+CRITICAL: the child must initiate and control all contact with their own body. The adult does not place materials on the child's body, does not guide the child's hand, and does not initiate any sensory encounter involving the child's skin. The setup is left for the child to discover and engage with entirely on their own terms. Any provocation where the adult must touch the child to make it work is not this provocation — rewrite it.
 
 ---
 
