@@ -15,10 +15,69 @@ const beforeSetup = document.getElementById("before-setup");
 const beforeSetupText = document.getElementById("before-setup-text");
 const newBtn = document.getElementById("new-btn");
 
+// ── Loading messages ──────────────────────────────────────────────────────────
+const LOADING_MESSAGES = [
+  "Gathering wonderment & curiosity… 🌿",
+  "Thinking like a Reggio educator… 🏛️",
+  "Listening to what children already know… 👂",
+  "Following the child's question… 🔍",
+  "Tuning into the hundred languages… 🌀",
+  "Weaving observation into invitation… 🧵",
+  "Almost there — finding the provocation… ✨",
+];
+
+let loadingMsgEl = null;
+let loadingInterval = null;
+let loadingMsgIdx = 0;
+
+function startLoadingMessages() {
+  // Create element if it doesn't exist
+  if (!loadingMsgEl) {
+    loadingMsgEl = document.createElement("p");
+    loadingMsgEl.className = "loading-status";
+    loadingMsgEl.setAttribute("aria-live", "polite");
+    submitBtn.insertAdjacentElement("afterend", loadingMsgEl);
+  }
+
+  loadingMsgIdx = 0;
+  loadingMsgEl.textContent = LOADING_MESSAGES[0];
+  // Trigger fade-in on next frame
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => loadingMsgEl.classList.add("visible"));
+  });
+
+  loadingInterval = setInterval(() => {
+    // Fade out
+    loadingMsgEl.classList.remove("visible");
+    setTimeout(() => {
+      loadingMsgIdx = (loadingMsgIdx + 1) % LOADING_MESSAGES.length;
+      loadingMsgEl.textContent = LOADING_MESSAGES[loadingMsgIdx];
+      loadingMsgEl.classList.add("visible");
+    }, 400);
+  }, 2400);
+}
+
+function stopLoadingMessages() {
+  clearInterval(loadingInterval);
+  loadingInterval = null;
+  if (loadingMsgEl) {
+    loadingMsgEl.classList.remove("visible");
+    setTimeout(() => {
+      if (loadingMsgEl) loadingMsgEl.textContent = "";
+    }, 400);
+  }
+}
+
+// ── UI helpers ────────────────────────────────────────────────────────────────
 function setLoading(loading) {
   submitBtn.disabled = loading;
   btnText.hidden = loading;
   btnLoading.hidden = !loading;
+  if (loading) {
+    startLoadingMessages();
+  } else {
+    stopLoadingMessages();
+  }
 }
 
 function showError(message) {
@@ -59,7 +118,6 @@ function renderEnvSetup(setup) {
     envSetup.appendChild(div);
   });
 
-  // Documentation prompts — three part
   if (setup.documentationPrompt) {
     const doc = setup.documentationPrompt;
     const docDiv = document.createElement("div");
@@ -101,6 +159,7 @@ function renderResults(data, topic, ageGroup) {
   resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+// ── Form submit ───────────────────────────────────────────────────────────────
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   hideError();
@@ -134,7 +193,6 @@ form.addEventListener("submit", async (e) => {
       throw new Error(data.error || "Something went wrong. Please try again.");
     }
 
-    // Handle streaming response
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
     let buffer = "";
@@ -145,7 +203,7 @@ form.addEventListener("submit", async (e) => {
 
       buffer += decoder.decode(value, { stream: true });
       const lines = buffer.split("\n");
-      buffer = lines.pop(); // keep incomplete line
+      buffer = lines.pop();
 
       for (const line of lines) {
         if (!line.startsWith("data: ")) continue;
@@ -178,6 +236,7 @@ form.addEventListener("submit", async (e) => {
   }
 });
 
+// ── Reset ─────────────────────────────────────────────────────────────────────
 newBtn.addEventListener("click", () => {
   resultsSection.hidden = true;
   beforeSetup.hidden = true;
