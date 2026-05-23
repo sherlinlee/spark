@@ -3,31 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#e85d4c" />
+  <meta name="theme-color" content="#1a4a3a" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Spark" />
   <meta name="description" content="Reggio-inspired lesson provocations for early childhood educators" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="icon" href="/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/icon.svg" />
-  <title>Spark by Sher — From topic to provocation in seconds</title>
+  <title>Spark by Sher — From topic to provocation in a click</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="app">
-    <header class="header">
-      <div class="logo">
-        <span class="logo-icon" aria-hidden="true">✦</span>
-        <div class="brand">
-          <h1>Spark by Sher</h1>
-          <p class="tagline">From topic to provocation in seconds</p>
-        </div>
-      </div>
-    </header>
+  <header class="header">
+    <div class="eyebrow">
+      <span class="eyebrow-icon" aria-hidden="true">✦</span>
+      Built by an educator, for educators
+    </div>
+    <h1><span class="word-spark">Spark</span> by Sher</h1>
+    <p class="tagline">From topic to provocation in a click</p>
+  </header>
 
+  <div class="app">
     <main>
       <section class="form-section" aria-labelledby="form-heading">
         <h2 id="form-heading" class="visually-hidden">Generate provocations</h2>
@@ -39,7 +38,7 @@
               type="text"
               id="topic"
               name="topic"
-              placeholder="e.g. mammals, space, feelings, shadows"
+              placeholder="e.g. shadows, puddles, roly-poly bugs…"
               required
               autocomplete="off"
             />
@@ -50,7 +49,7 @@
             <textarea
               id="observation"
               name="observation"
-              placeholder="e.g. Leo kept asking why the ant didn't drop the leaf. Sarah watched from across the room for a long time before she came closer."
+              placeholder="e.g. they kept pressing their faces against the glass in the rain, pointing at their own reflections…"
               rows="5"
               autocomplete="off"
             ></textarea>
@@ -91,10 +90,10 @@
           </fieldset>
 
           <button type="submit" class="btn-submit" id="submit-btn">
-            <span class="btn-text">Generate provocations</span>
+            <span class="btn-text">✦ Generate provocations</span>
             <span class="btn-loading" hidden>
               <span class="spinner" aria-hidden="true"></span>
-              Sparking ideas💡…
+              Sparking…
             </span>
           </button>
         </form>
@@ -104,56 +103,38 @@
 
       <section id="results" class="results" hidden aria-live="polite">
         <div class="results-header">
-          <h2>Your Provocations</h2>
-          <p id="results-meta" class="results-meta"></p>
+          <p class="results-eyebrow">Your Provocations</p>
+          <h2 id="results-meta" class="results-meta"></h2>
         </div>
 
         <div class="cards-grid">
           <article class="card card-env">
-            <h3>
-              <span class="card-icon" aria-hidden="true">🌿</span>
-              Environment Provocations
-            </h3>
+            <h3><span class="card-icon" aria-hidden="true">🌿</span>Environment Provocations</h3>
             <ol id="env-list" class="card-list"></ol>
           </article>
 
           <article class="card card-inquiry">
-            <h3>
-              <span class="card-icon" aria-hidden="true">💬</span>
-              Open-ended Inquiry Questions
-            </h3>
+            <h3><span class="card-icon" aria-hidden="true">💬</span>Open-ended Inquiry Questions</h3>
             <ol id="inquiry-list" class="card-list"></ol>
           </article>
 
-          <article class="card card-materials">
-            <h3>
-              <span class="card-icon" aria-hidden="true">🧺</span>
-              Suggested Open-ended Materials
-            </h3>
+          <article class="card card-materials card-full">
+            <h3><span class="card-icon" aria-hidden="true">🧺</span>Suggested Open-ended Materials</h3>
             <ul id="materials-list" class="card-list materials-list"></ul>
           </article>
 
           <article class="card card-anchor card-full">
-            <h3>
-              <span class="card-icon" aria-hidden="true">🌟</span>
-              The Big Why 💭
-            </h3>
+            <h3><span class="card-icon" aria-hidden="true">🌟</span>The Big Why 💭</h3>
             <blockquote id="anchor-question" class="anchor-quote"></blockquote>
           </article>
 
           <article class="card card-setup card-full">
-            <h3>
-              <span class="card-icon" aria-hidden="true">🏡</span>
-              Environment Setup Guide
-            </h3>
+            <h3><span class="card-icon" aria-hidden="true">🏡</span>Environment Setup Guide</h3>
             <div id="env-setup" class="env-setup-grid"></div>
           </article>
 
           <article class="card card-wherenext card-full">
-            <h3>
-              <span class="card-icon" aria-hidden="true">🔭</span>
-              Where Next?
-            </h3>
+            <h3><span class="card-icon" aria-hidden="true">🔭</span>Where Next?</h3>
             <p id="where-next" class="where-next-text"></p>
           </article>
         </div>
@@ -163,14 +144,13 @@
           <p id="before-setup-text"></p>
         </div>
 
-        <button type="button" id="new-btn" class="btn-secondary">Generate another topic</button>
+        <button type="button" id="new-btn" class="btn-secondary">✦ Generate another topic</button>
       </section>
     </main>
 
     <footer class="footer">
       <p class="install-tip">On your phone: open in Safari or Chrome, then use <strong>Share → Add to Home Screen</strong> for quick access.</p>
-      <p><strong>Built by an educator, for early childhood educators</strong></p>
-      <p>Powered by Claude</p>
+      <p>Powered by Claude · Built by Sher · Singapore</p>
     </footer>
   </div>
 
