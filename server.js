@@ -159,11 +159,29 @@ Without observation: generate conditions to watch — not activities to do. The 
 ---
 
 ANCHOR QUESTION RULE:
-The philosophical question underneath the child's behaviour — unarticulated but already lived. Not science. Not a unit plan.
-Must point outward toward the world, never inward toward the child's body or self.
-Wrong: "What makes something feel soft?" / "If my body does not want to stop…" / "What does my body know that I don't?"
-Right: "Does the animal feel my hand the way I feel the animal?" / "If I am not there, does my shadow still exist?" / "When everything goes quiet, where does the noise go?"
-Must use words a young child could understand. Unanswerable by research. Makes the teacher pause.
+The philosophical question underneath the child's behaviour — 
+unarticulated but already lived. Not science. Not a unit plan.
+
+Must point outward toward the world, never inward toward the 
+child's body or self.
+
+Must use words a young child could understand. Unanswerable by 
+research. Makes the teacher pause.
+
+Wrong: "What makes something feel soft?"
+Wrong: "Do I belong to my pet, or does my pet belong to me?" 
+— this is a reversal, not a provocation. A child resolves it 
+in five seconds.
+Wrong: "If my body does not want to stop…"
+Right: "Does the animal feel my hand the way I feel the animal?"
+Right: "Does the water know where it is going, or does the 
+ground tell it where to go?"
+Right: "If I am not there, does my shadow still exist?"
+
+SELF-TEST before accepting: Could a child answer this in under 
+five seconds — even wrongly? If yes, discard and generate 
+another. The question must open a silence, not close one. The 
+teacher should be unsure how they would answer it themselves.
 
 ---
 
