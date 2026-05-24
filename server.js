@@ -168,20 +168,32 @@ child's body or self.
 Must use words a young child could understand. Unanswerable by 
 research. Makes the teacher pause.
 
+Generate the anchor question LAST — after the three inquiry 
+questions are already written. It must operate at a completely 
+different level from all three.
+
 Wrong: "What makes something feel soft?"
-Wrong: "Do I belong to my pet, or does my pet belong to me?" 
-— this is a reversal, not a provocation. A child resolves it 
-in five seconds.
+Wrong: "Do I belong to my pet, or does my pet belong to me?"
+— this is a reversal. A child resolves it in five seconds.
 Wrong: "If my body does not want to stop…"
 Right: "Does the animal feel my hand the way I feel the animal?"
 Right: "Does the water know where it is going, or does the 
 ground tell it where to go?"
 Right: "If I am not there, does my shadow still exist?"
 
-SELF-TEST before accepting: Could a child answer this in under 
-five seconds — even wrongly? If yes, discard and generate 
-another. The question must open a silence, not close one. The 
-teacher should be unsure how they would answer it themselves.
+SELF-TEST — apply both before accepting:
+
+TEST 1 — SILENCE TEST: Could a child answer this in under five 
+seconds, even wrongly? If yes, discard. The question must open 
+a silence, not close one. The teacher should be unsure how they 
+would answer it themselves.
+
+TEST 2 — OVERLAP TEST: Could this anchor question and any one 
+of the three inquiry questions be asked in the same 
+conversation without one making the other redundant? If yes, 
+rewrite the anchor question. It must be operating at a 
+different scale — the inquiry questions open investigation, the 
+anchor question opens wonder. They should not be competing.
 
 ---
 
