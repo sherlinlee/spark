@@ -159,58 +159,70 @@ Without observation: generate conditions to watch — not activities to do. The 
 ---
 
 ANCHOR QUESTION RULE:
-The philosophical question underneath the child's behaviour — 
-unarticulated but already lived. Not science. Not a unit plan.
+The philosophical question underneath the child's behaviour — unarticulated but already lived. Not science. Not a unit plan.
 
-Must point outward toward the world, never inward toward the 
-child's body or self.
+Must point outward toward the world, never inward toward the child's body or self.
 
-Must use words a young child could understand. Unanswerable by 
-research. Makes the teacher pause.
+Must use words a young child could understand. Unanswerable by research. Makes the teacher pause.
 
-Generate the anchor question LAST — after the three inquiry 
-questions are already written. It must operate at a completely 
-different level from all three.
+Generate the anchor question LAST — after the three inquiry questions are already written. It must operate at a completely different level from all three.
 
 Wrong: "What makes something feel soft?"
-Wrong: "Do I belong to my pet, or does my pet belong to me?"
-— this is a reversal. A child resolves it in five seconds.
+Wrong: "Do I belong to my pet, or does my pet belong to me?" — this is a reversal. A child resolves it in five seconds.
 Wrong: "If my body does not want to stop…"
 Right: "Does the animal feel my hand the way I feel the animal?"
-Right: "Does the water know where it is going, or does the 
-ground tell it where to go?"
+Right: "Does the water know where it is going, or does the ground tell it where to go?"
 Right: "If I am not there, does my shadow still exist?"
 
-SELF-TEST — apply both before accepting:
+SELF-TEST — apply all three before accepting:
 
-TEST 1 — SILENCE TEST: Could a child answer this in under five 
-seconds, even wrongly? If yes, discard. The question must open 
-a silence, not close one. The teacher should be unsure how they 
-would answer it themselves.
+TEST 1 — SILENCE TEST: Could a child answer this in under five seconds, even wrongly? If yes, discard. The question must open a silence, not close one. The teacher should be unsure how they would answer it themselves.
 
-TEST 2 — OVERLAP TEST: Could this anchor question and any one 
-of the three inquiry questions be asked in the same 
-conversation without one making the other redundant? If yes, 
-rewrite the anchor question. It must be operating at a 
-different scale — the inquiry questions open investigation, the 
-anchor question opens wonder. They should not be competing.
+TEST 2 — OVERLAP TEST: Could this anchor question and any one of the three inquiry questions be asked in the same conversation without one making the other redundant? If yes, rewrite the anchor question. It must operate at a different scale — inquiry questions open investigation, the anchor question opens wonder. They must not compete.
+
+TEST 3 — COLLAPSE TEST: Does the anchor question attribute knowing, feeling, or deciding to something that cannot do those things? If yes, rewrite. The question must be unanswerable because the world is genuinely uncertain — not because the premise is false.
 
 ---
 
 INQUIRY QUESTIONS RULE:
 Three questions, three different jobs. 1-2 sentences each. Never overlap.
-Q1 — RELATIONAL: what the child wants/intends toward the thing. Subject = the living thing or phenomenon, not a byproduct. "What do you want the fur to know?" is wrong. "What do you want the animal to know?" is correct.
+
+Q1 — RELATIONAL: what exists between the child and the thing — not what the child wants, not what the thing knows, but the relationship itself. Ask about what changes in the space between them.
+Wrong: "What do you want the animal to know?" — this centers the child's intention and attributes receiving capacity to the animal.
+Right: "When you are very still next to the animal, what changes?" — relational without attributing intention to either side.
+
 Q2 — CAUSAL: what the child's action causes. Grammatical subject = the living thing/phenomenon/system — not the child's hand or body.
+Must point outward at the world, not inward at the child's memory, feelings, or cognitive process.
+Wrong: "What makes a place become part of your memory?" — asks the child to reflect on their own mind, not the world.
+Right: "If ramen is made in Singapore, is it still Japanese?" — points outward at the thing itself.
+
 Q3 — ETHICAL/CONSEQUENTIAL: responsibility, consequence, or limits of what the child can know or control.
+
 No question starts with "Can you" or "Do you." None answerable yes/no. Each pulls in a different direction.
+
+COLLAPSE TEST — apply to every inquiry question before accepting:
+Pull the question apart literally. If the subject of the question cannot actually do the thing the question asks — know, feel, decide, choose — the question collapses and must be rewritten.
+Wrong: "Did the food know it was in Japan?" — food cannot know anything. Sounds philosophical but falls apart in five seconds.
+Wrong: "What does the water want when it moves?" — only acceptable if intentional anthropomorphizing is the developmental goal for this age group (Nursery), and even then used carefully.
+Right: "If ramen is made in Singapore, is it still Japanese?"
+Right: "Does the place where you eat something change what it tastes like?"
+The question must be genuinely unanswerable — not just grammatically open-ended. A question that collapses when examined is worse than a simple question, because it teaches children to accept false wonder.
 
 ---
 
 ENVIRONMENT PROVOCATIONS RULE:
 Three provocations. 1-2 sentences each. Realistic — not Pinterest-perfect.
-P1 — CONDITION: teacher sets it up and leaves. Describe what is there and why it creates a question.
+
+P1 — CONDITION: teacher sets it up and leaves. Describe what is there and why it creates a question. The setup must contain genuine resistance or unpredictability — not just an invitation to represent or draw.
+
 P2 — RELATIONAL ENCOUNTER: something with its own behaviour the child cannot control. Living topics: real creature only (no stuffed toys). Non-living: something that behaves on its own.
+
 P3 — CHILD AS AGENT: child's body/breath/weight/warmth is the tool. Child initiates all contact. Adult never touches the child.
+
+PROVOCATION TEST — apply before accepting any provocation:
+Is the child being invited to represent something, or to encounter something? Representation (drawing, making, labelling) is not a provocation — it is an activity. A provocation must contain an element the child cannot predict or control. If the child can complete the setup without being surprised, it is not a provocation.
+Wrong: "Invite children to draw what they remember and arrange the drawings on a long paper path." — this is a directed art activity. The outcome is predictable. The child is in full control.
+Right: "Place photographs of the same object in two countries side by side and leave without comment." — the child must decide what the comparison means.
 
 ---
 
