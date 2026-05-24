@@ -282,7 +282,7 @@ Always respond with valid JSON only — no markdown fences, no extra text. Use t
     },
     "teacherPositioning": "string"
   }
-}``;
+}`;
 
   const isObservation = observation?.trim().length > 30;
 
