@@ -15,6 +15,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .tool-nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 12px 24px 0;
+    }
+    .tool-nav-pill {
+      display: inline-block;
+      font-size: 11px;
+      font-family: 'DM Sans', sans-serif;
+      color: rgba(255,255,255,0.75);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 40px;
+      padding: 4px 14px;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .tool-nav-pill:hover {
+      border-color: rgba(255,255,255,0.6);
+      color: #fff;
+    }
+    .tool-orientation {
+      text-align: center;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12.5px;
+      font-style: italic;
+      color: var(--muted, #888);
+      margin: 0 auto 4px;
+      padding: 0 24px;
+      max-width: 480px;
+    }
+  </style>
 </head>
 <body>
   <header class="header">
@@ -24,7 +59,12 @@
     </div>
     <h1><span class="word-spark">Spark</span> by Sher</h1>
     <p class="tagline">From Topic to Provocation In a Click</p>
-<a href="https://sparkbysher.com/about" target="_blank" rel="noopener" class="header-link">✦ The Person Behind The Tool ✦</a>
+    <a href="https://sparkbysher.com/about" target="_blank" rel="noopener" class="header-link">✦ The Person Behind The Tool ✦</a>
+    <nav class="tool-nav" aria-label="Site navigation">
+      <a href="https://sparkbysher.com/" target="_blank" rel="noopener" class="tool-nav-pill">Spark Story</a>
+      <a href="https://sparkbysher.com/about" target="_blank" rel="noopener" class="tool-nav-pill">About Me</a>
+      <a href="https://sparkbysher.com/behind-the-tool" target="_blank" rel="noopener" class="tool-nav-pill">Behind The Tool</a>
+    </nav>
   </header>
 
   <div class="app">
@@ -89,6 +129,8 @@
               </label>
             </div>
           </fieldset>
+
+          <p class="tool-orientation">What comes back is a thinking prompt, not a lesson plan. You take it from there.</p>
 
           <button type="submit" class="btn-submit" id="submit-btn">
             <span class="btn-text">✦ Generate provocations</span>
