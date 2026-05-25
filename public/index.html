@@ -42,12 +42,25 @@
     .tool-orientation {
       text-align: center;
       font-family: 'DM Sans', sans-serif;
-      font-size: 12.5px;
+      font-size: 13.5px;
       font-style: italic;
       color: var(--muted, #888);
       margin: 0 auto 4px;
       padding: 0 24px;
       max-width: 480px;
+    }
+    .tool-banner {
+      text-align: center;
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: clamp(13px, 3vw, 15px);
+      font-style: italic;
+      color: #1a4a3a;
+      background: #f0f7f5;
+      border-left: 3px solid #1a7a6e;
+      border-radius: 6px;
+      padding: 12px 20px;
+      margin: 0 0 24px;
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -71,6 +84,7 @@
     <main>
       <section class="form-section" aria-labelledby="form-heading">
         <h2 id="form-heading" class="visually-hidden">Generate Provocations</h2>
+        <div class="tool-banner">What comes back is a thinking prompt, not a lesson plan. You take it from there.</div>
         <form id="spark-form" novalidate>
 
           <div class="field">
@@ -130,7 +144,7 @@
             </div>
           </fieldset>
 
-          <p class="tool-orientation">What comes back is a thinking prompt, not a lesson plan. You take it from there.</p>
+          <p class="tool-orientation"></p>
 
           <button type="submit" class="btn-submit" id="submit-btn">
             <span class="btn-text">✦ Generate provocations</span>
