@@ -134,10 +134,14 @@ function renderEnvSetup(setup) {
   }
 }
 
-function renderResults(data, topic, ageGroup) {
+function renderResults(data, topic, ageGroup, observation) {
   const ageShort = ageGroup.match(/^(Toddlers|Nursery|K1|K2)/)?.[1] ?? ageGroup;
-const topicDisplay = topic.charAt(0).toUpperCase() + topic.slice(1);
-resultsMeta.textContent = `${topicDisplay} · ${ageShort}`;
+  const topicDisplay = topic
+    ? topic.charAt(0).toUpperCase() + topic.slice(1)
+    : observation
+      ? "Classroom moment"
+      : "Open inquiry";
+  resultsMeta.textContent = `${topicDisplay} · ${ageShort}`;
 
   fillList(envList, data.environmentProvocations || []);
   fillList(inquiryList, data.inquiryQuestions || []);
@@ -169,8 +173,8 @@ form.addEventListener("submit", async (e) => {
   const observation = document.getElementById("observation")?.value.trim() || "";
   const ageGroup = form.querySelector('input[name="ageGroup"]:checked')?.value;
 
-  if (!topic) {
-    showError("Please enter a topic.");
+  if (!topic && !observation) {
+    showError("Please enter a classroom moment or a topic.");
     return;
   }
   if (!ageGroup) {
@@ -219,7 +223,7 @@ form.addEventListener("submit", async (e) => {
           }
 
           if (parsed.done && parsed.result) {
-            renderResults(parsed.result, topic, ageGroup);
+            renderResults(parsed.result, topic, ageGroup, observation);
           }
         } catch (parseErr) {
           if (parseErr.message !== "Unexpected end of JSON input") {

@@ -111,9 +111,18 @@ async function handleGenerate(req, res) {
     return;
   }
 
-  if (!topic?.trim() || !ageGroup) {
+  const hasTopic = Boolean(topic?.trim());
+  const hasObservation = Boolean(observation?.trim());
+
+  if (!ageGroup) {
     res.writeHead(400, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ error: "Topic and age group are required" }));
+    res.end(JSON.stringify({ error: "Age group is required" }));
+    return;
+  }
+
+  if (!hasTopic && !hasObservation) {
+    res.writeHead(400, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ error: "Please enter a classroom moment or a topic." }));
     return;
   }
 
@@ -276,7 +285,7 @@ Respond with valid JSON only — no markdown, no extra text:
   const isObservation = observation?.trim().length > 30;
 
   const userPrompt = `${isObservation
-    ? `Teacher's observation: ${observation.trim()}\n\nContext topic: ${topic.trim()}`
+    ? `Teacher's observation: ${observation.trim()}${hasTopic ? `\n\nContext topic: ${topic.trim()}` : ""}`
     : `Topic: ${topic.trim()}`}
 Age group: ${ageGroup}
 
