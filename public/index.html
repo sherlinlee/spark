@@ -98,19 +98,7 @@
         <form id="spark-form" novalidate>
 
           <div class="field">
-            <label for="topic">What are your children curious about right now?</label>
-            <input
-              type="text"
-              id="topic"
-              name="topic"
-              placeholder="e.g. shadows, puddles, roly-poly bugs…"
-              required
-              autocomplete="off"
-            />
-          </div>
-
-          <div class="field">
-            <label for="observation">Something you noticed <span class="optional-tag">(optional — but this is where the magic happens)</span></label>
+            <label for="observation">Something you noticed</label>
             <textarea
               id="observation"
               name="observation"
@@ -118,6 +106,17 @@
               rows="5"
               autocomplete="off"
             ></textarea>
+          </div>
+
+          <div class="field">
+            <label for="topic">Or just a topic <span class="optional-tag">(optional — if you don't have a specific moment yet)</span></label>
+            <input
+              type="text"
+              id="topic"
+              name="topic"
+              placeholder="e.g. shadows, puddles, roly-poly bugs…"
+              autocomplete="off"
+            />
           </div>
 
           <fieldset class="field age-field">
